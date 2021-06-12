@@ -1,0 +1,7 @@
+select red where qual != 5 and qual != 4 and qual != 7
+select red or white where qual > 6 and qual <= 7
+select WHITE where alc = 13 and qual < 4
+select red or white where chlorid = 0.062 and pH = 3.52 and qual >= 6 
+select white where sulph >= 2
+select red where sulph >= 2.0
+select red or white where qual >5 and qual <3
